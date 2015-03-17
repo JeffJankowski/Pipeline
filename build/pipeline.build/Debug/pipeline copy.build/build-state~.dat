@@ -1,0 +1,39 @@
+Tpipeline copy
+v7
+r1
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t1293520731
+s9176
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline copy.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline copy.build/Objects-normal/x86_64/pipeline.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198BD7000000000000056B
+t1293519831
+s1387
+i<unistd.h>
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCompileC "build/pipeline.build/Debug/pipeline copy.build/Objects-normal/x86_64/main.o" /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+r0
+

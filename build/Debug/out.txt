@@ -1,0 +1,4 @@
+tHIS IS A CHARACTER sEqUeNcE!!!
+123...te$t!ng
+
+	uppercase --> LOWERCASE

@@ -1,0 +1,82 @@
+Tfilter
+v7
+r0
+t315220462.027692
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/filter.o /Developer/Projects/pipeline/filter.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t1293527662
+s9192
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/filter.o
+t1293527594
+s3072
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D19AA6E0000000000000064
+t1293527662
+s100
+
+N/Developer/Projects/pipeline/filter.cpp
+c000000004D19AA2A00000000000000DB
+t1293527594
+s219
+i<stdio.h>
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198BD7000000000000056B
+t1293519831
+s1387
+i<unistd.h>
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315220461#315220462#0(0"0(0#1#0"8611203040#0"0#
+
+CCompileC build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/filter.o /Developer/Projects/pipeline/filter.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315220462.010874
+e315220462.011775
+r1
+xCompileC
+xbuild/pipeline.build/Debug/filter.build/Objects-normal/x86_64/filter.o
+x/Developer/Projects/pipeline/filter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Developer/Projects/pipeline/filter.cpp315220462#315220462#0(0"0(0#0#39"/Developer/Projects/pipeline/filter.cpp8624898976#1189"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/DerivedSources -c /Developer/Projects/pipeline/filter.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/filter.o0#
+
+CCompileC build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+s315220462.011849
+e315220462.027627
+r1
+xLd
+x/Developer/Projects/pipeline/build/Debug/pipeline
+xnormal
+xx86_64
+lSLF07#2@54"Link /Developer/Projects/pipeline/build/Debug/pipeline315220462#315220462#0(0"0(0#0#0"8624748576#450"    cd /Developer/Projects/pipeline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/Projects/pipeline/build/Debug -F/Developer/Projects/pipeline/build/Debug -filelist /Developer/Projects/pipeline/build/pipeline.build/Debug/filter.build/Objects-normal/x86_64/pipeline.LinkFileList -mmacosx-version-min=10.6 -o /Developer/Projects/pipeline/build/Debug/pipeline0#
+

@@ -1,0 +1,79 @@
+Tpipeline
+v7
+r0
+t315212322.922375
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o /Developer/Projects/pipeline/source.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D198AA200000000000000CA
+t1293519522
+s202
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o
+t1293519472
+s2424
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198A110000000000000506
+t1293519377
+s1286
+i<iostream>
+
+N/Developer/Projects/pipeline/source.cpp
+c000000004D198A7000000000000000BF
+t1293519472
+s191
+
+N/Developer/Projects/pipeline/source.h
+c000000004D198A36000000000000008E
+t1293519414
+s142
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315212322#315212322#0(0"0(0#1#0"8602780768#0"0#
+
+CCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315212322.920303
+e315212322.921510
+r0
+xCompileC
+xbuild/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/pipeline/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Developer/Projects/pipeline/main.cpp315212322#315212322#0(335"/Developer/Projects/pipeline/main.cpp: In function 'int main(int, char* const*)':/Developer/Projects/pipeline/main.cpp:17: error: 'p' was not declared in this scope/Developer/Projects/pipeline/main.cpp:24: warning: missing sentinel in function call/Developer/Projects/pipeline/main.cpp:37: error: 'p' was not declared in this scope3(4@34"'p' was not declared in this scope315212322#82#84#0(6@37"/Developer/Projects/pipeline/main.cpp315212177#17#0#17#0#34"'*' was not declared in this scope0(22@33"Missing sentinel in function call315212322#166#85#0(6@37"/Developer/Projects/pipeline/main.cpp315212177#24#0#24#0#0"0(4@34"'p' was not declared in this scope315212322#251#84#0(6@37"/Developer/Projects/pipeline/main.cpp315212177#37#0#37#0#34"'*' was not declared in this scope0(0#0#37"/Developer/Projects/pipeline/main.cpp8598232224#1199"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources -c /Developer/Projects/pipeline/main.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o1#
+
+CCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o /Developer/Projects/pipeline/source.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315212322.921557
+e315212322.922314
+r1
+xCompileC
+xbuild/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o
+x/Developer/Projects/pipeline/source.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Developer/Projects/pipeline/source.cpp315212322#315212322#0(0"0(0#0#39"/Developer/Projects/pipeline/source.cpp8593640992#1203"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources -c /Developer/Projects/pipeline/source.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o0#
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+r0
+

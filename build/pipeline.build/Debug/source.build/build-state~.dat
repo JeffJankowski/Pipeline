@@ -1,0 +1,74 @@
+Tsource
+v7
+r0
+t315215972.643817
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/source.build/Objects-normal/x86_64/source.o /Developer/Projects/pipeline/source.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t1293522934
+s9688
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D1998E40000000000000064
+t1293523172
+s100
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/Objects-normal/x86_64/source.o
+t2
+s0
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198BD7000000000000056B
+t1293519831
+s1387
+i<unistd.h>
+
+N/Developer/Projects/pipeline/source.cpp
+c000000004D1998D000000000000000A9
+t1293523152
+s169
+i<stdio.h>
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315215972#315215972#0(0"0(0#1#0"8623741504#0"0#
+
+CCompileC build/pipeline.build/Debug/source.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/pipeline.build/Debug/source.build/Objects-normal/x86_64/source.o /Developer/Projects/pipeline/source.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315215972.642644
+e315215972.643763
+r0
+xCompileC
+xbuild/pipeline.build/Debug/source.build/Objects-normal/x86_64/source.o
+x/Developer/Projects/pipeline/source.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Developer/Projects/pipeline/source.cpp315215972#315215972#0(182"/Developer/Projects/pipeline/source.cpp: In function 'int main(int, char* const*)':/Developer/Projects/pipeline/source.cpp:4: error: invalid conversion from 'const char*' to 'char'1(4@47"Invalid conversion from 'const char*' to 'char'315215972#84#98#0(6@39"/Developer/Projects/pipeline/source.cpp315215952#4#0#4#0#34"invalid conversion from '*' to '*'0(0#0#39"/Developer/Projects/pipeline/source.cpp8626040384#1189"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/DerivedSources -c /Developer/Projects/pipeline/source.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/source.build/Objects-normal/x86_64/source.o1#
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+r0
+

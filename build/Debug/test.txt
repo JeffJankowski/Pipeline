@@ -1,0 +1,4 @@
+This is a character SeQuEnCe!!!
+123...TE$T!NG
+
+	UPPERCASE --> lowercase

@@ -1,0 +1,108 @@
+Tsink
+v7
+r0
+t315414492.476166
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o /Developer/Projects/pipeline/sink.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/pipeline/build/Debug/sink normal x86_64
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t1293527662
+s9192
+
+N/Developer/Projects/pipeline/build/Debug/sink
+t1293721692
+s16840
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D1999FF0000000000000060
+t1293523455
+s96
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.LinkFileList
+c000000004D19AAF10000000000000060
+t1293527793
+s96
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o
+t1293721690
+s82448
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198BD7000000000000056B
+t1293519831
+s1387
+i<unistd.h>
+
+N/Developer/Projects/pipeline/sink.cpp
+c000000004D1CA05A000000000000035B
+t1293721690
+s859
+i<stdio.h>
+i<iostream>
+i<fstream>
+
+N/Developer/Projects/pipeline/sink.h
+c000000004D1991B8000000000000008C
+t1293521336
+s140
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315414492#315414492#0(0"0(0#1#0"8633514176#0"0#
+
+CCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o /Developer/Projects/pipeline/sink.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315414492.456327
+e315414492.457430
+r1
+xCompileC
+xbuild/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o
+x/Developer/Projects/pipeline/sink.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Developer/Projects/pipeline/sink.cpp315414492#315414492#0(0"0(0#0#37"/Developer/Projects/pipeline/sink.cpp8632262560#1155"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/sink-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/sink-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/sink-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/sink-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/DerivedSources -c /Developer/Projects/pipeline/sink.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o0#
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+s315220449.337264
+e315220449.355371
+r1
+xLd
+x/Developer/Projects/pipeline/build/Debug/pipeline
+xnormal
+xx86_64
+lSLF07#2@54"Link /Developer/Projects/pipeline/build/Debug/pipeline315220449#315220449#0(0"0(0#0#0"8624065120#448"    cd /Developer/Projects/pipeline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/Projects/pipeline/build/Debug -F/Developer/Projects/pipeline/build/Debug -filelist /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/pipeline.LinkFileList -mmacosx-version-min=10.6 -o /Developer/Projects/pipeline/build/Debug/pipeline0#
+
+CLd /Developer/Projects/pipeline/build/Debug/sink normal x86_64
+s315414492.457477
+e315414492.476117
+r1
+xLd
+x/Developer/Projects/pipeline/build/Debug/sink
+xnormal
+xx86_64
+lSLF07#2@50"Link /Developer/Projects/pipeline/build/Debug/sink315414492#315414492#0(0"0(0#0#0"8628096320#440"    cd /Developer/Projects/pipeline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/Projects/pipeline/build/Debug -F/Developer/Projects/pipeline/build/Debug -filelist /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.LinkFileList -mmacosx-version-min=10.6 -o /Developer/Projects/pipeline/build/Debug/sink0#
+

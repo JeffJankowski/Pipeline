@@ -1,0 +1,116 @@
+Tpipeline
+v7
+r0
+t315346252.869764
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t1293653452
+s9768
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o
+t1293653451
+s5092
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D198F5B0000000000000064
+t1293520731
+s100
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o
+t1293519472
+s2424
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D1B95CB00000000000008FA
+t1293653451
+s2298
+i<unistd.h>
+i<stdio.h>
+i<stdlib.h>
+i<sys/types.h>
+i<unistd.h>
+i<sys/wait.h>
+
+N/Developer/Projects/pipeline/source.cpp
+c000000004D198A7000000000000000BF
+t1293519472
+s191
+
+N/Developer/Projects/pipeline/source.h
+c000000004D198A36000000000000008E
+t1293519414
+s142
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h
+c000000004B90BBAB000000000000273C
+t1267776427
+s10044
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315346252#315346252#0(0"0(0#1#0"8632331008#0"0#
+
+CCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315346252.852601
+e315346252.853547
+r1
+xCompileC
+xbuild/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/pipeline/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Developer/Projects/pipeline/main.cpp315346252#315346252#0(0"0(0#0#37"/Developer/Projects/pipeline/main.cpp8632224736#1199"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources -c /Developer/Projects/pipeline/main.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o /Developer/Projects/pipeline/source.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315212322.921557
+e315212322.922314
+r1
+xCompileC
+xbuild/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o
+x/Developer/Projects/pipeline/source.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Developer/Projects/pipeline/source.cpp315212322#315212322#0(0"0(0#0#39"/Developer/Projects/pipeline/source.cpp8593640992#1203"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/DerivedSources -c /Developer/Projects/pipeline/source.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/source.o0#
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+s315346252.853594
+e315346252.869716
+r1
+xLd
+x/Developer/Projects/pipeline/build/Debug/pipeline
+xnormal
+xx86_64
+lSLF07#2@54"Link /Developer/Projects/pipeline/build/Debug/pipeline315346252#315346252#0(0"0(0#0#0"8632041632#452"    cd /Developer/Projects/pipeline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/Projects/pipeline/build/Debug -F/Developer/Projects/pipeline/build/Debug -filelist /Developer/Projects/pipeline/build/pipeline.build/Debug/pipeline.build/Objects-normal/x86_64/pipeline.LinkFileList -mmacosx-version-min=10.6 -o /Developer/Projects/pipeline/build/Debug/pipeline0#
+

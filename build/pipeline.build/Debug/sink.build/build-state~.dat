@@ -1,0 +1,86 @@
+Tsink
+v7
+r0
+t315216255.426480
+cCheck dependencies
+cCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o /Developer/Projects/pipeline/sink.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+
+N/Developer/Projects/pipeline/build/Debug/pipeline
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/pipeline.LinkFileList
+c000000004D1999FF0000000000000060
+t1293523455
+s96
+
+N/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o
+t1293521355
+s1408
+
+N/Developer/Projects/pipeline/main.cpp
+c000000004D198BD7000000000000056B
+t1293519831
+s1387
+i<unistd.h>
+
+N/Developer/Projects/pipeline/sink.cpp
+c000000004D1991CB000000000000008D
+t1293521355
+s141
+
+N/Developer/Projects/pipeline/sink.h
+c000000004D1991B8000000000000008C
+t1293521336
+s140
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315216255#315216255#0(0"0(0#1#0"8626731936#0"0#
+
+CCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/main.o /Developer/Projects/pipeline/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o /Developer/Projects/pipeline/sink.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315216255.409905
+e315216255.410663
+r1
+xCompileC
+xbuild/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o
+x/Developer/Projects/pipeline/sink.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Developer/Projects/pipeline/sink.cpp315216255#315216255#0(0"0(0#0#37"/Developer/Projects/pipeline/sink.cpp8627140640#1171"    cd /Developer/Projects/pipeline    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/pipeline-generated-files.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/pipeline-own-target-headers.hmap -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/pipeline-all-target-headers.hmap -iquote /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/pipeline-project-headers.hmap -F/Developer/Projects/pipeline/build/Debug -I/Developer/Projects/pipeline/build/Debug/include -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/DerivedSources/x86_64 -I/Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/DerivedSources -c /Developer/Projects/pipeline/sink.cpp -o /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/sink.o0#
+
+CLd /Developer/Projects/pipeline/build/Debug/pipeline normal x86_64
+s315216255.410726
+e315216255.426438
+r0
+xLd
+x/Developer/Projects/pipeline/build/Debug/pipeline
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_main", referenced from:
+o      start in crt1.10.6.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@54"Link /Developer/Projects/pipeline/build/Debug/pipeline315216255#315216255#0(134"Undefined symbols:  "_main", referenced from:      start in crt1.10.6.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@25""_main", referenced from:315216255#19#28#0(6@0"315216255#0#0#0#0#0"0(13@20"Start in crt1.10.6.o315216255#47#27#0(6@0"315216255#0#0#0#0#0"0(13@19"Symbol(s) not found315216255#74#24#0(6@0"315216255#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status315216255#98#36#0(6@0"315216255#0#0#0#0#0"0(0#0#0"8627042560#448"    cd /Developer/Projects/pipeline    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Developer/Projects/pipeline/build/Debug -F/Developer/Projects/pipeline/build/Debug -filelist /Developer/Projects/pipeline/build/pipeline.build/Debug/sink.build/Objects-normal/x86_64/pipeline.LinkFileList -mmacosx-version-min=10.6 -o /Developer/Projects/pipeline/build/Debug/pipeline1#
+
